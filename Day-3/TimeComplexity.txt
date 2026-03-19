@@ -1,2 +1,9 @@
 Time Complexity:
 It is used to measure efficiency of algorithm in terms of speed, as the input size grows.
+
+Worst-case scenario is typically analyzed (Big O), representing the upper bound of runtime.
+Constant time (O(1)): Runtime does not change with input size (e.g., accessing an array element).
+Linear time (O(n)): Runtime grows proportionally with input size (e.g., a single loop over n elements).
+Quadratic time (O(n²)): Runtime grows with the square of input size (e.g., nested loops).
+Logarithmic time (O(log n)): Runtime grows slowly, common in divide-and-conquer algorithms (e.g., binary search).
+N log N (O(n log n)): Common in efficient sorting algorithms like merge sort.
