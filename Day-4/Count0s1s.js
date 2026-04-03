@@ -7,5 +7,4 @@ for (let i = 0; i < arr.length; i++) {
   else ones++;
 }
 
-console.log(zeroes);
-console.log(ones);
+console.log("Total zeroes: ", zeroes, " total ones: ", ones);
