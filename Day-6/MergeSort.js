@@ -31,11 +31,9 @@ function merge(left, right) {
     }
   }
 
-  // Add remaining elements
   return result.concat(left.slice(i)).concat(right.slice(j));
 }
 
-// Example usage
 let arr = [38, 27, 43, 3, 9, 82, 10];
 let sortedArr = mergeSort(arr);
 
