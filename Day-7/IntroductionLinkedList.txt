@@ -1,0 +1,9 @@
+Linked List:
+----------
+-> It is linear datastructure
+-> Nodes are linked together by a reference field
+
+Types of Linked List:
+--------------------
+1. Singly Linked List
+2. Doubly Linked List
