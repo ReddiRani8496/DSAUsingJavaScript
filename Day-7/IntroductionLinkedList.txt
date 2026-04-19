@@ -7,3 +7,26 @@ Types of Linked List:
 --------------------
 1. Singly Linked List
 2. Doubly Linked List
+
+
+Linked List vs Arrays:
+---------------------
+
+Linked List:
+1) linear
+2) Non-contigous
+3) Dynamic size
+4) Node(Value+pointer)
+5) Getting element is hard
+6) Insertion/Deletion is easier
+7) Extra memory
+
+Arrays:
+------
+1) linear
+2) contigous
+3) Fixed size
+4) Just Value
+5) Getting element is easy 
+6) Insertion/deletion is complex
+7) Memory efficient
