@@ -1,1 +1,1 @@
-const mostFrequsent();
+const mostFrequsent{}
