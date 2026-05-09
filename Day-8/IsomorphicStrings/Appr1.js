@@ -3,21 +3,20 @@
  * @param {string} t
  * @return {boolean}
  */
-var isIsomorphic = function (s, t) {
-  let fmap = new Map();
-  for (let i = 0; i < s.length; i++) {
-    if (fmap.has(s[i])) {
-      console.log(fmap);
-      let val = fmap.get(s[i]);
-      if (val != t[i]) {
-        return false;
-      }
-    } else {
-      console.log(fmap);
-      if (fmap.has(t[i]) && fmap.get(t[i]) != s[i]) return false;
-      fmap.set(s[i], t[i]);
-    }
-  }
+var isIsomorphic = function(s, t) {
+    if(s.length != t.length) return false;
+    let mapStoT = new Map();
+    let mapTtoS = new Map();
 
-  return true;
+    for(let i=0;i<s.length;i++){
+        if(!mapStoT[s[i]] && !mapTtoS[t[i]]) {
+            mapStoT[s[i]] = t[i];
+            mapTtoS[t[i]] = s[i];
+        } else if(mapStoT[s[i]] != t[i] || mapTtoS[t[i]] != s[i]) {
+            return false;
+        }
+    }
+
+
+    return true;
 };
