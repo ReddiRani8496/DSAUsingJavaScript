@@ -2,6 +2,8 @@ let map = new Map();
 map.set("a", 1);
 map.set("b", 2);
 
+console.log("map ", map);
+
 console.log(map.size);
 
 console.log(map.get("b"));
