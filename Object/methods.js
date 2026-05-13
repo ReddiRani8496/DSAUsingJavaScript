@@ -14,3 +14,5 @@ car.brand = "Toyota";
 car.model = "Camry";
 
 console.log(car);
+
+console.log(car[brand]);
