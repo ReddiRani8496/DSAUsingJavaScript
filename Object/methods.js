@@ -36,3 +36,7 @@ for (let key in obj) {
 
 // print only values using Object.values
 console.log(Object.values(obj));
+
+
+console.log(person.hasOwnProperty("age"));
+console.log(person.hasOwnProperty("city"));
