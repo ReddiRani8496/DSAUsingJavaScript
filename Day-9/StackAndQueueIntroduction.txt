@@ -1,0 +1,34 @@
+Queue:
+-----
+-> FIFO First In First Out
+methods:
+-------
+1) enqueue(add)
+2) dequeue(remove)
+3) peek/front
+
+Examples: Ticket Counter, Os Track Scheduling, Printers, Queue
+
+Stack:
+-----
+
+LIFO - Last In First Out
+methods:
+1) push
+2) pop
+3) peek/top
+
+Examples: Stack of books, undo feature, browsing history, recursion
+
+Why do we need them?
+-------------------
+1) Organize data logically
+2) Order of operations matter
+3) optimize time/space for specific use cases
+
+Use Cases:
+----------
+1) recursion - Stack
+2) Level order tree traversal - Queue
+3) BFS - Queue
+4) DFS - Stack
