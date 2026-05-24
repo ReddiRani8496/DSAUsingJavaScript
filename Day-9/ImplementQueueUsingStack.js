@@ -40,6 +40,6 @@ MyQueue.prototype.peek = function () {
 // /**
 //  * @return {boolean}
 //  */
-// MyQueue.prototype.empty = function () {
-//   return this.stack1.length === 0 && this.stack2.length === 0;
-// };
+MyQueue.prototype.empty = function () {
+  return this.stack1.length === 0 && this.stack2.length === 0;
+};
