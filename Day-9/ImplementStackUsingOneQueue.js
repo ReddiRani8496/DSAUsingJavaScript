@@ -38,9 +38,9 @@ MyStack.prototype.top = function () {
 /**
  * @return {boolean}
  */
-// MyStack.prototype.empty = function () {
-//   return this.q1.length == 0;
-// };
+MyStack.prototype.empty = function () {
+  return this.q1.length == 0;
+};
 
 /**
  * Your MyStack object will be instantiated and called as such:
