@@ -1,1 +1,7 @@
 Solid
+
+S - Single Responsibility (Giving one component one Responsibility) - Helps for reusablity
+O - Open - Closed Principle => it says your code should be open to extension but closed to modification
+L - Liskov Substitution
+I - Interface Segregation
+D - Dependency Inversion
