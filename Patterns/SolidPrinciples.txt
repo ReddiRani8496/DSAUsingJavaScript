@@ -5,3 +5,82 @@ O - Open - Closed Principle => it says your code should be open to extension but
 L - Liskov Substitution
 I - Interface Segregation
 D - Dependency Inversion
+
+
+
+S — Single Responsibility Principle (SRP)
+
+Definition:
+A class, function, or component should have only one reason to change.
+
+❌ Bad Example:
+
+class User {
+  saveUser() {
+    console.log("Saving user");
+  }
+
+  sendEmail() {
+    console.log("Sending email");
+  }
+}
+
+This class handles both user data and email functionality.
+
+✅ Good Example:
+
+class User {
+  saveUser() {
+    console.log("Saving user");
+  }
+}
+
+class EmailService {
+  sendEmail() {
+    console.log("Sending email");
+  }
+}
+
+
+
+
+
+
+
+O — Open/Closed Principle (OCP)
+
+Definition:
+Software entities should be open for extension but closed for modification.
+
+Instead of modifying existing code, extend it.
+
+❌ Bad Example:
+
+function getDiscount(type) {
+  if (type === "regular") return 10;
+  if (type === "premium") return 20;
+}
+
+Adding a new customer type requires modifying the function.
+
+✅ Good Example:
+
+class RegularCustomer {
+  getDiscount() {
+    return 10;
+  }
+}
+
+class PremiumCustomer {
+  getDiscount() {
+    return 20;
+  }
+}
+
+Now you can add:
+
+class GoldCustomer {
+  getDiscount() {
+    return 30;
+  }
+}
