@@ -5,3 +5,8 @@ for (let i = 1; i <= n; i++) {
   row += i + " ";
   console.log(row);
 }
+
+// 1
+// 1 2
+// 1 2 3
+// 1 2 3 4
