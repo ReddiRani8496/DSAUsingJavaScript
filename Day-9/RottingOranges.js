@@ -9,7 +9,6 @@ var orangesRotting = function (grid) {
   const queue = [];
   let freshCount = 0;
 
-  // Find all rotten oranges and count fresh oranges
   for (let r = 0; r < rows; r++) {
     for (let c = 0; c < cols; c++) {
       if (grid[r][c] === 2) {
@@ -20,7 +19,6 @@ var orangesRotting = function (grid) {
     }
   }
 
-  // No fresh oranges
   if (freshCount === 0) return 0;
 
   const directions = [
