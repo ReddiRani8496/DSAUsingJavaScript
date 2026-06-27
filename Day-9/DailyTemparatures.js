@@ -1,7 +1,7 @@
 var dailyTemperatures = function (temperatures) {
   const n = temperatures.length;
   const answer = new Array(n).fill(0);
-  const stack = []; // stores indices
+  const stack = [];
 
   for (let i = 0; i < n; i++) {
     while (
