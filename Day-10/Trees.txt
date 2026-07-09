@@ -1,0 +1,17 @@
+A tree is a non-linear, hierarchical data structure consisting of nodes connected by edges. Unlike linear structures (arrays, linked lists), it represents hierarchical relationships.
+
+Root: The topmost node of the tree (the only node with no parent).
+
+Edge: The link connecting a parent node to a child node.
+
+Leaf Node (External Node): A node that has no children.
+
+Internal Node: A node with at least one child.
+
+Depth of a Node: The number of edges from the root to that specific node.
+
+Height of a Node: The number of edges on the longest path from that node to a leaf.
+
+Height of a Tree: The height of the root node (the longest path from root to any leaf).
+
+Subtree: Any node along with all its descendants.
