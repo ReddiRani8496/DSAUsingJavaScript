@@ -15,3 +15,11 @@ Height of a Node: The number of edges on the longest path from that node to a le
 Height of a Tree: The height of the root node (the longest path from root to any leaf).
 
 Subtree: Any node along with all its descendants.
+
+
+Properties of Trees
+N nodes = N - 1 edges. Every node except the root has exactly one incoming edge from its parent.
+
+No Cycles: There are no loops or closed paths. A tree with a cycle is just a graph.
+
+Unique Path: There is exactly one unique path between the root and any other node.
