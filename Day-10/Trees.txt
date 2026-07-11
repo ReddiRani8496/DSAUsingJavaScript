@@ -23,3 +23,5 @@ N nodes = N - 1 edges. Every node except the root has exactly one incoming edge 
 No Cycles: There are no loops or closed paths. A tree with a cycle is just a graph.
 
 Unique Path: There is exactly one unique path between the root and any other node.
+
+Common Types of TreesA. Binary TreeA tree where each node can have at most two children, typically referred to as the left child and right child.Full Binary Tree: Every node has either 0 or 2 children.Complete Binary Tree: All levels are completely filled except possibly the last level, which is filled from left to right.Perfect Binary Tree: All internal nodes have two children, and all leaf nodes are at the same level.B. Binary Search Tree (BST)A binary tree with a strict ordering property:The value of the left subtree must be less than the parent node's value.The value of the right subtree must be greater than the parent node's value.Both left and right subtrees must also be binary search trees.Time Complexity (BST):Average Case: $O(\log n)$ for Search, Insertion, and Deletion.Worst Case: $O(n)$ if the tree becomes skewed (looks like a linked list).
