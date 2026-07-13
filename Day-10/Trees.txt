@@ -28,6 +28,23 @@ Common Types of TreesA.
 Binary Tree: A tree where each node can have at most two children, typically referred to as the left child and right child.Full Binary Tree: Every node has either 0 or 2 children.
 Complete Binary Tree: All levels are completely filled except possibly the last level, which is filled from left to right.
 Perfect Binary Tree: All internal nodes have two children, and all leaf nodes are at the same level.B. 
-Binary Search Tree (BST)A binary tree with a strict ordering property:The value of the left subtree must be less than the parent node's value.The value of the right subtree must be greater than the parent node's value.Both left and right subtrees must also be binary search trees.T
-ime Complexity (BST):Average Case: $O(\log n)$ for Search, Insertion, and Deletion.Worst Case: $O(n)$ if the tree becomes skewed (looks like a linked list).
+Binary Search Tree (BST)A binary tree with a strict ordering property:The value of the left subtree must be less than the parent node's value.The value of the right subtree must be greater than the parent node's value.Both left and right subtrees must also be binary search trees.
+Time Complexity (BST):Average Case: $O(\log n)$ for Search, Insertion, and Deletion.Worst Case: $O(n)$ if the tree becomes skewed (looks like a linked list).
 
+Tree Traversal Techniques
+Unlike linear data structures, trees can be traversed in multiple ways. They are divided into two main categories:
+
+Depth-First Search (DFS)
+DFS explores as deep as possible along each branch before backtracking. It relies heavily on recursion (or a stack).
+
+In-Order (Left → Root → Right):
+
+Note: In-order traversal of a BST always yields values in sorted ascending order.
+
+Pre-Order (Root → Left → Right):
+
+Note: Excellent for creating a copy of a tree or prefix expression evaluation.
+
+Post-Order (Left → Right → Root):
+
+Note: Used for deleting a tree or postfix expression calculation (children are processed before parents).
