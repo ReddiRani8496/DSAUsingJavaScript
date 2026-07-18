@@ -48,3 +48,8 @@ Note: Excellent for creating a copy of a tree or prefix expression evaluation.
 Post-Order (Left → Right → Root):
 
 Note: Used for deleting a tree or postfix expression calculation (children are processed before parents).
+
+Breadth-First Search (BFS) / Level-Order Traversal
+Visits nodes level by level, from top to bottom and left to right.
+
+Implemented iteratively using a Queue.
