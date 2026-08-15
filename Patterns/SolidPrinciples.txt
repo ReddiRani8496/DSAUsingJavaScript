@@ -12,8 +12,7 @@ S — Single Responsibility Principle (SRP)
 
 Definition:
 A class, function, or component should have only one reason to change.
-
-❌ Bad Example:
+Bad Example:
 
 class User {
   saveUser() {
@@ -26,8 +25,7 @@ class User {
 }
 
 This class handles both user data and email functionality.
-
-✅ Good Example:
+Good Example:
 
 class User {
   saveUser() {
